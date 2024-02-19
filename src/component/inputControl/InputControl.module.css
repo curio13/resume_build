@@ -1,28 +1,26 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-label{
+  }
+  
+  label {
     font-weight: 500;
     font-size: 1rem;
-}
-
-input{
-    border: 1px solid rgb(199,182,188);
+  }
+  
+  input {
+    border: 1px solid #cccccc;
     outline: none;
     padding: 10px 12px;
     font-size: 1rem;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-
-input:hover{
-    border: 1px solid #4cc275;
-}
-
-input:focus{
-    border: 1px solid #239c22;
-}
+  }
+  
+  input:hover {
+    border: 1px solid #adadad;
+  }
+  
+  input:focus {
+    border: 1px solid #239ce2;
+  }
